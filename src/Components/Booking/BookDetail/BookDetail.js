@@ -5,7 +5,7 @@ const BookDetail = ({bookInfo}) => {
     const [service,setService] = useState([]);
     const productId = bookInfo.productId;
     useEffect(()=>{
-        fetch(`http://localhost:4000/booking/${productId}`)
+        fetch(`https://fast-meadow-21215.herokuapp.com/booking/${productId}`)
         .then(res => res.json())
         .then(data => setService(data[0]))
     },[productId])

@@ -3,23 +3,6 @@ import hairCut from '../../../img/services/005-hairstyle-1.png'
 import bodyMessage from '../../../img/services/002-nerves.png'
 import bearedCut from '../../../img/services/004-hairstyle.png'
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
-// const serviceData = [
-//     {
-//         name: 'Hair Cut',
-//         img: hairCut,
-//         price:20
-//     },
-//     {
-//         name: 'Body Message',
-//         img: bodyMessage,
-//         price:30
-//     },
-//     {
-//         name: 'Beard Style',
-//         img: bearedCut,
-//         price:10
-//     }
-// ]
 
 
 const Services = () => {
@@ -27,7 +10,7 @@ const Services = () => {
     const [serviceData,setServiceData] = useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:4000/services')
+        fetch('https://fast-meadow-21215.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setServiceData(data))
     },[])

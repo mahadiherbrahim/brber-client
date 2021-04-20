@@ -18,7 +18,7 @@ const Booking = () => {
     const [service, setService] = useState([]);
 
     useEffect(()=>{
-        fetch(`http://localhost:4000/booking/${id}`)
+        fetch(`https://fast-meadow-21215.herokuapp.com/booking/${id}`)
         .then(res => res.json())
         .then(data => setService(data[0]))
     },[id])
@@ -44,7 +44,7 @@ const Booking = () => {
             orderTime: new Date() 
         }
 
-        fetch('http://localhost:4000/addBooking', {
+        fetch('https://fast-meadow-21215.herokuapp.com/addBooking', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

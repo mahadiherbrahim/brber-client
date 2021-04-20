@@ -15,7 +15,7 @@ const AddTestimonial = () => {
 
         console.log(testimonialData);
 
-        const url = `http://localhost:4000/addTestimonial`;
+        const url = `https://fast-meadow-21215.herokuapp.com/addTestimonial`;
         fetch(url,{
             method: 'POST',
             headers: {

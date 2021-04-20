@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Testimonials.css';
-import review1 from '../../../img/blog/comment_1.png'
-import review2 from '../../../img/blog/comment_2.png'
-import review3 from '../../../img/blog/comment_3.png'
 import Testimonial from '../Testimonial/Testimonial';
 
 
@@ -11,7 +8,7 @@ const Testimonials = () => {
     const [testimonial,setTestimonial] = useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:4000/testimonial')
+        fetch('https://fast-meadow-21215.herokuapp.com/testimonial')
         .then(res => res.json())
         .then(data => {
             setTestimonial(data)
