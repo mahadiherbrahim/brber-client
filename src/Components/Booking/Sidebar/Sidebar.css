@@ -1,0 +1,20 @@
+.bookingPanel{
+    background-color: cadetblue;
+    height: 100vh;
+}
+.bookingPanel img{
+    width: 200px;
+}
+.bookingPanel .sidebar-menu {
+    background-color: rgb(58, 112, 114);
+    list-style: none;
+    padding: 8px;
+    margin-top: 8px;
+    margin-left: 0px;
+    list-style: none;
+}
+.bookingPanel .sidebar-menu .sidebar-menu-link {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.booking{
+    background-color: lightgray;
+}
+.bookingDetails{
+    margin: 0;
+    padding: 0;
+}
+.bookingDetails li {
+    list-style: none;
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+}

@@ -1,0 +1,10 @@
+
+.testimonials .card{
+    border-color: transparent;
+    box-shadow: 5px 5px 5px 10px lightgray;
+}
+
+.testimonials .card .card-footer{
+    background: transparent;
+    border: 0;
+}
