@@ -1,8 +1,8 @@
 # Brber / Shaloon Website
 # live Site : https://complate-website-client.web.app/
 # Feature
-### Buy Booking For Hair Style
-### Booking Seat
+#### Buy Booking For Hair Style
+#### Booking Seat
 
 # Tools
 ### React
